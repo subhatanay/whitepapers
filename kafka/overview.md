@@ -16,6 +16,8 @@ A distributed messaging based log-aggregator.
 
 6. partition :: Kafka  is  distributed  in  nature,  an  Kafka  cluster  typically  consists  of  multiple  brokers.  To  balance  load,  a  topic  is  divided into multiple  partitions  and  each  broker  stores  one  or  more  of  those partitions. partition helps to balance the load accross the consumers.
 
+## how topics stores in distributed kafka cluster .
+
 ### Storage
 
 #### Physcial Storage 
